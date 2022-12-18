@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inter {
+    font-family: 'inter', sans-serif;
+}
+
+body{
+
+    font-family: 'CaladeaRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#name {
+    font-size: 2.3vh;
+    letter-spacing: 0.3vh;
+}
+
+.last-name {
+    font-weight: 300;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.box {
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.left-block {
+    width: 50%;
+    height: 100vh;
+    background-color: #202026;
+    color:whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.right-block {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FDEFDF;
+}
+
+.title-name {
+    background-color: #fecb00;
+    font-size: 1.3vh;
+    margin-top: 6vh;
+    height: 15vh;
+    display:flex;
+    flex-direction: column;
+    padding-top: 4vh;
+    padding-left: 2%;
+    width: 100%;
+    line-height: 4vh;
+    letter-spacing: 0.2vh;
+}
+
+
+.about-me {
+    width: 80%;
+    border-bottom: 3px solid black;
+    letter-spacing: 0.5vh;
+    line-height: 4vh;
+    margin-top: 3vh;
+    padding-bottom: 1vh;
+    font-size: 1.3vh;
+
+}
+
+.text {
+    width: 80%;
+    text-align: left;
+    margin-top: 2vh;
+    font-size: 1.5vh;
+}
+
+.work-experience {
+    width: 80%;
+    border-bottom: 2px solid black;
+    letter-spacing: 0.5vh;
+    line-height: 4vh;
+    margin-top: 2vh;
+    padding-bottom: 1vh;
+    font-size: 1.8vh;
+}
+
+.work-list {
+    width: 80%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.work-left-block {
+    width: 30%;
+    height: 20vh;
+}
+
+.work-right-block {
+    width: 100%;
+    height: 20vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.top-block {
+ height: 30%;
+}
+
+.bottom-block {
+ height: 30%;
+}
+
+.top-block-right {
+    height: 30%;
+}
+
+.bottom-block-right {
+    height: 30%;
+}
+
+.work-position {
+    font-size: 1.5vh;
+}
+
+.company {
+    font-size: 1.4vh;
+    margin-top: 2%;
+}
+
+.skill {
+    border-bottom: 2px solid black;
+    letter-spacing: 0.5vh;
+    line-height: 4vh;
+    margin-top: 2vh;
+    width: 80%;
+    padding-bottom: 1vh;
+    font-size: 1.8vh;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    margin-top: 2vh;
+    line-height: 3vh;
+    font-size: 1.7vh;
+}
+
+.border-skill {
+    border-bottom: 4px solid salmon;
+}
+
+.year {
+    font-size: 1.7vh;
+}
+
+/* left block */
+
+.main-profile-photo {
+    width: 100%;
+    height: 27vh;
+}
+
+.bottom-border {
+    border-bottom: 2px solid #fecb00 ;
+}
+
+.background-gray {
+    background-color: #2A2B2F;
+}
+
+.education {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 7vh 0 3vh 0;
+    line-height: 2vh;
+}
+
+.reference {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    font-size: 1.8vh;
+    padding-bottom: 1.4vh ;
+    
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 2vh;
+    line-height: 3vh;
+    font-size: 1.5vh;
+}
+
+.left-box {
+    display:flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.education-h {
+    font-size: 1.9vh;
+    padding-bottom: 1.5vh ;
+}
+
+.education-text {
+    padding-top: 2vh;
+}
+
+#padding-education {
+    margin-top: 1vh;
+    padding-bottom: 0.5vh;
+    font-size: 1.5vh;
+}
+
+#year-size {
+    font-size: 1.5vh;
+}
+
+.university-h4 {
+    font-size: 1.5vh;
+}
+
+#link {
+    text-decoration: none;
+    color:white;
+    font-size: 3vh;
+    margin-bottom: 15%;
+    border-bottom: 1.5px solid yellow;
+    border-top: 1.5px solid yellow;
+}
+
+.rs-item {
+    margin-top: 40%;
+    width: 100%;
+    height: 18vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
